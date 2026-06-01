@@ -1,0 +1,49 @@
+PS C:\Users\eshas\Downloads\AI Project ccpasa> (Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& "c:\Users\eshas\Downloads\AI Project ccpasa\env\Scripts\Activate.ps1")
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> python evaluation_metrics.py
+C:\Users\eshas\Downloads\AI Project ccpasa\env\Scripts\python.exe: can't open file 'C:\\Users\\eshas\\Downloads\\AI Project ccpasa\\evaluation_metrics.py': [Errno 2] No such file or directory
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> python evaluation_metrics.py
+=====================================================================
+STARTING MACHINE LEARNING ENGINE ACCURACY & PRECISION EVALUATION
+=====================================================================
+
+[1/3] Enriched dataset loaded successfully from 'ai_churn_advanced_nlp_enriched.csv'.
+[2/3] Data matrices split successfully. Test Size Matrix: 100 profiles.
+[3/3] Training model estimators across 150 sequential gradient steps...
+
+=============================================
+      EVOBOOST CLASSIFICATION PERFORMANCE METRICS
+=============================================
+  Accuracy Score  : 84.00%  (Overall Correct Decisions)
+  Precision Score : 73.08%  (Correctness of Churn Flags)
+  Recall Score    : 67.86%  (Coverage of Total True Churners)
+  F1-Score Metric : 70.37%  (Harmonic Mean Optimization)
+---------------------------------------------
+  Confusion Matrix Topology:
+    True Negatives  (Retained Correctly) : 65
+    False Positives (False Alarms)        : 7
+    False Negatives (Missed Churners)     : 9
+    True Positives  (Rescued Correctly)  : 19
+=====================================================================
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> stramlit run streamlit_dashboard_outputs.py
+stramlit : The term 'stramlit' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling 
+of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ stramlit run streamlit_dashboard_outputs.py
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (stramlit:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> streamlit run streamlit_dashboard_outputs.py
+2026-05-31 16:25:59.261 Uvicorn server started on 0.0.0.0:8501
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.146.81.235:8501
+
+  Stopping...
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> ^C
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> ^C
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> ^C
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> ^C
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> 

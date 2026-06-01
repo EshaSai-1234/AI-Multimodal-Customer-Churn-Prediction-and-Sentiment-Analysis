@@ -1,0 +1,47 @@
+PS C:\Users\eshas\Downloads\AI Project ccpasa> (Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& "c:\Users\eshas\Downloads\AI Project ccpasa\env\Scripts\Activate.ps1")
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> # 1. Install the prerequisite text parsing package
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> pip install nltk
+Requirement already satisfied: nltk in .\env\Lib\site-packages (3.9.4)
+Requirement already satisfied: click in .\env\Lib\site-packages (from nltk) (8.4.1)
+Requirement already satisfied: joblib in .\env\Lib\site-packages (from nltk) (1.5.3)
+Requirement already satisfied: regex>=2021.8.3 in .\env\Lib\site-packages (from nltk) (2026.5.9)
+Requirement already satisfied: tqdm in .\env\Lib\site-packages (from nltk) (4.67.3)
+Requirement already satisfied: colorama in .\env\Lib\site-packages (from click->nltk) (0.4.6)
+
+[notice] A new release of pip is available: 26.0.1 -> 26.1.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> 
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> # 2. Run your combined all-in-one script directly
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> python nlp_sentiment_enricher.py
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> python nlp_sentiment_enricher.py
+=====================================================================
+RUNNING ALL-IN-ONE DEEP NLP SENTIMENT ENGINE & DATASET ENRICHER
+=====================================================================
+
+[1/4] Found and loaded 'customer_churn_400.csv' safely. Rows: 400
+[2/4] Initializing quick lightweight linguistic processing modules...
+[NLP Setup] Fetching lightweight VADER Lexicon utility package (~90KB)...
+C:\Users\eshas\Downloads\AI Project ccpasa\env\Lib\site-packages\nltk\data.py:1192: RuntimeWarning: Security Violation [pathsec.ZipFile]: Unauthorized path C:\Users\eshas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\Roaming\nltk_data\sentiment\vader_lexicon.zip
+  ZipFile.__init__(self, filename)
+C:\Users\eshas\Downloads\AI Project ccpasa\env\Lib\site-packages\nltk\data.py:1202: RuntimeWarning: Security Violation [pathsec.open]: Unauthorized path C:\Users\eshas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\Roaming\nltk_data\sentiment\vader_lexicon.zip
+  self.fp = _secure_open(self.filename, "rb")
+[NLP Setup] Local lexical emotional mapping matrix initialized successfully.
+[NLP Setup] Local Token-Based Zero-Shot Aspect Classifier initialized.
+[3/4] Batch-processing support logs using parallel lexical lookups...
+
+[4/4] SUCCESS! Enriched feature database compiled in 2.523 seconds.
+      Saved output as: 'ai_churn_advanced_nlp_enriched.csv'
+
+--- Processed Feature Column Matrix Preview (Top 5 Rows) ---
+   customer_id                nlp_primary_aspect  nlp_frustration_score  nlp_urgency_score
+0         1001        SLA/Technical Product bugs                 0.0000             0.2512
+1         1002        SLA/Technical Product bugs                 0.0000             0.3146
+2         1003        SLA/Technical Product bugs                 0.0000             0.2905
+3         1004          Financial/Billing issues                 0.3531             0.6759
+4         1005  Account Query/Documentation help                 0.0000             0.2272
+=====================================================================
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> ^C
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> ^C
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> ^C
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> ^C
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> 

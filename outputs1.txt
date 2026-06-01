@@ -1,0 +1,274 @@
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> python main.py
+=====================================================================
+STARTING MULTIMODAL AI-POWERED CUSTOMER CHURN AND RETENTION EXECUTION
+=====================================================================
+Background dataset has 300 samples but max_samples=100. Subsampling to 100 samples for SHAP value computation. To use all samples, set max_samples=300 when initializing the masker.
+[Model Status] SHAP explanation skipped due to: ufunc 'isfinite' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+[Model Status] Pipeline evaluation completed successfully.
+[Model Status] Identified 26 targets requiring retention rescue.
+
+=== Triggering Automated LangGraph Recovery Campaigns (26 Users) ===
+
+[Execution Track Result for Customer Account #1084]
+{
+  "customer_id": 1084,
+  "churn_risk": 0.7242847522263767,
+  "top_negative_reason": "The UI update completely broke my active workflows. I am looking at alternative options.",
+  "tenure": 9,
+  "derived_retention_strategy": "Standard Customer Loyalty Retention Active. Target Risk: 0.72. Action: Distribute automated account health check invite bundled with a 20% membership renewal coupon.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1084. Executed operational playbook logic: [Standard Customer Loyalty Retention Active. Target Risk: 0.72. Action: Distribute automated account health check invite bundled with a 20% membership renewal coupon.]"
+}
+
+[Execution Track Result for Customer Account #1078]
+{
+  "customer_id": 1078,
+  "churn_risk": 0.7780933176436192,
+  "top_negative_reason": "This platform is too complicated and slow. I want to cancel my auto-renewal immediately.",
+  "tenure": 35,
+  "derived_retention_strategy": "SLA Mitigation Safeguard Active. Target Risk: 0.78. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1078. Executed operational playbook logic: [SLA Mitigation Safeguard Active. Target Risk: 0.78. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.]"
+}
+
+[Execution Track Result for Customer Account #1080]
+{
+  "customer_id": 1080,
+  "churn_risk": 0.7443120290640264,
+  "top_negative_reason": "The UI update completely broke my active workflows. I am looking at alternative options.",
+  "tenure": 33,
+  "derived_retention_strategy": "Standard Customer Loyalty Retention Active. Target Risk: 0.74. Action: Distribute automated account health check invite bundled with a 20% membership renewal coupon.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1080. Executed operational playbook logic: [Standard Customer Loyalty Retention Active. Target Risk: 0.74. Action: Distribute automated account health check invite bundled with a 20% membership renewal coupon.]"
+}
+
+[Execution Track Result for Customer Account #1208]
+{
+  "customer_id": 1208,
+  "churn_risk": 0.6536360728338008,
+  "top_negative_reason": "Billing is broken. Charged twice this month and nobody in support is answering my chats.",
+  "tenure": 3,
+  "derived_retention_strategy": "Financial Rescue Loop Active. Target Risk: 0.65. Length: 3 months. Action: Apply 1-month statement compensation credit and initiate immediate automated billing audit.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1208. Executed operational playbook logic: [Financial Rescue Loop Active. Target Risk: 0.65. Length: 3 months. Action: Apply 1-month statement compensation credit and initiate immediate automated billing audit.]"
+}
+
+[Execution Track Result for Customer Account #1278]
+{
+  "customer_id": 1278,
+  "churn_risk": 0.7321306010046061,
+  "top_negative_reason": "Terrible customer service. I've asked for a refund three times on this disputed contract.",
+  "tenure": 2,
+  "derived_retention_strategy": "Standard Customer Loyalty Retention Active. Target Risk: 0.73. Action: Distribute automated account health check invite bundled with a 20% membership renewal coupon.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1278. Executed operational playbook logic: [Standard Customer Loyalty Retention Active. Target Risk: 0.73. Action: Distribute automated account health check invite bundled with a 20% membership renewal coupon.]"
+}
+
+[Execution Track Result for Customer Account #1146]
+{
+  "customer_id": 1146,
+  "churn_risk": 0.7361361802514904,
+  "top_negative_reason": "Billing is broken. Charged twice this month and nobody in support is answering my chats.",
+  "tenure": 2,
+  "derived_retention_strategy": "Financial Rescue Loop Active. Target Risk: 0.74. Length: 2 months. Action: Apply 1-month statement compensation credit and initiate immediate automated billing audit.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1146. Executed operational playbook logic: [Financial Rescue Loop Active. Target Risk: 0.74. Length: 2 months. Action: Apply 1-month statement compensation credit and initiate immediate automated billing audit.]"
+}
+
+[Execution Track Result for Customer Account #1067]
+{
+  "customer_id": 1067,
+  "churn_risk": 0.7692659775168709,
+  "top_negative_reason": "Billing is broken. Charged twice this month and nobody in support is answering my chats.",
+  "tenure": 1,
+  "derived_retention_strategy": "Financial Rescue Loop Active. Target Risk: 0.77. Length: 1 months. Action: Apply 1-month statement compensation credit and initiate immediate automated billing audit.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1067. Executed operational playbook logic: [Financial Rescue Loop Active. Target Risk: 0.77. Length: 1 months. Action: Apply 1-month statement compensation credit and initiate immediate automated billing audit.]"
+}
+
+[Execution Track Result for Customer Account #1310]
+{
+  "customer_id": 1310,
+  "churn_risk": 0.6852143185122912,
+  "top_negative_reason": "Terrible customer service. I've asked for a refund three times on this disputed contract.",
+  "tenure": 15,
+  "derived_retention_strategy": "Standard Customer Loyalty Retention Active. Target Risk: 0.69. Action: Distribute automated account health check invite bundled with a 20% membership renewal coupon.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1310. Executed operational playbook logic: [Standard Customer Loyalty Retention Active. Target Risk: 0.69. Action: Distribute automated account health check invite bundled with a 20% membership renewal coupon.]"
+}
+
+[Execution Track Result for Customer Account #1114]
+{
+  "customer_id": 1114,
+  "churn_risk": 0.6133089536291221,
+  "top_negative_reason": "Your service has constant downtime. My team can't access our dashboard during market hours.",
+  "tenure": 15,
+  "derived_retention_strategy": "SLA Mitigation Safeguard Active. Target Risk: 0.61. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1114. Executed operational playbook logic: [SLA Mitigation Safeguard Active. Target Risk: 0.61. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.]"
+}
+
+[Execution Track Result for Customer Account #1058]
+{
+  "customer_id": 1058,
+  "churn_risk": 0.6260693729532565,
+  "top_negative_reason": "This platform is too complicated and slow. I want to cancel my auto-renewal immediately.",
+  "tenure": 23,
+  "derived_retention_strategy": "SLA Mitigation Safeguard Active. Target Risk: 0.63. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1058. Executed operational playbook logic: [SLA Mitigation Safeguard Active. Target Risk: 0.63. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.]"
+}
+
+[Execution Track Result for Customer Account #1306]
+{
+  "customer_id": 1306,
+  "churn_risk": 0.7760755517591892,
+  "top_negative_reason": "Your service has constant downtime. My team can't access our dashboard during market hours.",
+  "tenure": 25,
+  "derived_retention_strategy": "SLA Mitigation Safeguard Active. Target Risk: 0.78. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1306. Executed operational playbook logic: [SLA Mitigation Safeguard Active. Target Risk: 0.78. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.]"
+}
+
+[Execution Track Result for Customer Account #1363]
+{
+  "customer_id": 1363,
+  "churn_risk": 0.7770833040782296,
+  "top_negative_reason": "Your service has constant downtime. My team can't access our dashboard during market hours.",
+  "tenure": 31,
+  "derived_retention_strategy": "SLA Mitigation Safeguard Active. Target Risk: 0.78. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1363. Executed operational playbook logic: [SLA Mitigation Safeguard Active. Target Risk: 0.78. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.]"
+}
+
+[Execution Track Result for Customer Account #1096]
+{
+  "customer_id": 1096,
+  "churn_risk": 0.789891360266181,
+  "top_negative_reason": "Your service has constant downtime. My team can't access our dashboard during market hours.",
+  "tenure": 35,
+  "derived_retention_strategy": "SLA Mitigation Safeguard Active. Target Risk: 0.79. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1096. Executed operational playbook logic: [SLA Mitigation Safeguard Active. Target Risk: 0.79. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.]"
+}
+
+[Execution Track Result for Customer Account #1188]
+{
+  "customer_id": 1188,
+  "churn_risk": 0.7262692819696627,
+  "top_negative_reason": "Billing is broken. Charged twice this month and nobody in support is answering my chats.",
+  "tenure": 1,
+  "derived_retention_strategy": "Financial Rescue Loop Active. Target Risk: 0.73. Length: 1 months. Action: Apply 1-month statement compensation credit and initiate immediate automated billing audit.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1188. Executed operational playbook logic: [Financial Rescue Loop Active. Target Risk: 0.73. Length: 1 months. Action: Apply 1-month statement compensation credit and initiate immediate automated billing audit.]"
+}
+
+[Execution Track Result for Customer Account #1341]
+{
+  "customer_id": 1341,
+  "churn_risk": 0.7240504136212452,
+  "top_negative_reason": "This platform is too complicated and slow. I want to cancel my auto-renewal immediately.",
+  "tenure": 3,
+  "derived_retention_strategy": "SLA Mitigation Safeguard Active. Target Risk: 0.72. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1341. Executed operational playbook logic: [SLA Mitigation Safeguard Active. Target Risk: 0.72. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.]"
+}
+
+[Execution Track Result for Customer Account #1181]
+{
+  "customer_id": 1181,
+  "churn_risk": 0.7263985092933215,
+  "top_negative_reason": "Terrible customer service. I've asked for a refund three times on this disputed contract.",
+  "tenure": 3,
+  "derived_retention_strategy": "Standard Customer Loyalty Retention Active. Target Risk: 0.73. Action: Distribute automated account health check invite bundled with a 20% membership renewal coupon.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1181. Executed operational playbook logic: [Standard Customer Loyalty Retention Active. Target Risk: 0.73. Action: Distribute automated account health check invite bundled with a 20% membership renewal coupon.]"
+}
+
+[Execution Track Result for Customer Account #1072]
+{
+  "customer_id": 1072,
+  "churn_risk": 0.6464829858548317,
+  "top_negative_reason": "Billing is broken. Charged twice this month and nobody in support is answering my chats.",
+  "tenure": 1,
+  "derived_retention_strategy": "Financial Rescue Loop Active. Target Risk: 0.65. Length: 1 months. Action: Apply 1-month statement compensation credit and initiate immediate automated billing audit.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1072. Executed operational playbook logic: [Financial Rescue Loop Active. Target Risk: 0.65. Length: 1 months. Action: Apply 1-month statement compensation credit and initiate immediate automated billing audit.]"
+}
+
+[Execution Track Result for Customer Account #1358]
+{
+  "customer_id": 1358,
+  "churn_risk": 0.7484973739602062,
+  "top_negative_reason": "Terrible customer service. I've asked for a refund three times on this disputed contract.",
+  "tenure": 30,
+  "derived_retention_strategy": "Standard Customer Loyalty Retention Active. Target Risk: 0.75. Action: Distribute automated account health check invite bundled with a 20% membership renewal coupon.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1358. Executed operational playbook logic: [Standard Customer Loyalty Retention Active. Target Risk: 0.75. Action: Distribute automated account health check invite bundled with a 20% membership renewal coupon.]"
+}
+
+[Execution Track Result for Customer Account #1149]
+{
+  "customer_id": 1149,
+  "churn_risk": 0.7385185703621334,
+  "top_negative_reason": "The UI update completely broke my active workflows. I am looking at alternative options.",
+  "tenure": 2,
+  "derived_retention_strategy": "Standard Customer Loyalty Retention Active. Target Risk: 0.74. Action: Distribute automated account health check invite bundled with a 20% membership renewal coupon.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1149. Executed operational playbook logic: [Standard Customer Loyalty Retention Active. Target Risk: 0.74. Action: Distribute automated account health check invite bundled with a 20% membership renewal coupon.]"
+}
+
+[Execution Track Result for Customer Account #1199]
+{
+  "customer_id": 1199,
+  "churn_risk": 0.728431084004777,
+  "top_negative_reason": "Your service has constant downtime. My team can't access our dashboard during market hours.",
+  "tenure": 2,
+  "derived_retention_strategy": "SLA Mitigation Safeguard Active. Target Risk: 0.73. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1199. Executed operational playbook logic: [SLA Mitigation Safeguard Active. Target Risk: 0.73. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.]"
+}
+
+[Execution Track Result for Customer Account #1381]
+{
+  "customer_id": 1381,
+  "churn_risk": 0.7976768189956045,
+  "top_negative_reason": "Billing is broken. Charged twice this month and nobody in support is answering my chats.",
+  "tenure": 33,
+  "derived_retention_strategy": "Financial Rescue Loop Active. Target Risk: 0.80. Length: 33 months. Action: Apply 1-month statement compensation credit and initiate immediate automated billing audit.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1381. Executed operational playbook logic: [Financial Rescue Loop Active. Target Risk: 0.80. Length: 33 months. Action: Apply 1-month statement compensation credit and initiate immediate automated billing audit.]"
+}
+
+[Execution Track Result for Customer Account #1021]
+{
+  "customer_id": 1021,
+  "churn_risk": 0.7778519406192559,
+  "top_negative_reason": "This platform is too complicated and slow. I want to cancel my auto-renewal immediately.",
+  "tenure": 25,
+  "derived_retention_strategy": "SLA Mitigation Safeguard Active. Target Risk: 0.78. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1021. Executed operational playbook logic: [SLA Mitigation Safeguard Active. Target Risk: 0.78. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.]"
+}
+
+[Execution Track Result for Customer Account #1121]
+{
+  "customer_id": 1121,
+  "churn_risk": 0.7474714197023857,
+  "top_negative_reason": "Billing is broken. Charged twice this month and nobody in support is answering my chats.",
+  "tenure": 2,
+  "derived_retention_strategy": "Financial Rescue Loop Active. Target Risk: 0.75. Length: 2 months. Action: Apply 1-month statement compensation credit and initiate immediate automated billing audit.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1121. Executed operational playbook logic: [Financial Rescue Loop Active. Target Risk: 0.75. Length: 2 months. Action: Apply 1-month statement compensation credit and initiate immediate automated billing audit.]"
+}
+
+[Execution Track Result for Customer Account #1152]
+{
+  "customer_id": 1152,
+  "churn_risk": 0.6378785580774049,
+  "top_negative_reason": "This platform is too complicated and slow. I want to cancel my auto-renewal immediately.",
+  "tenure": 23,
+  "derived_retention_strategy": "SLA Mitigation Safeguard Active. Target Risk: 0.64. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1152. Executed operational playbook logic: [SLA Mitigation Safeguard Active. Target Risk: 0.64. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.]"
+}
+
+[Execution Track Result for Customer Account #1362]
+{
+  "customer_id": 1362,
+  "churn_risk": 0.7734513124313063,
+  "top_negative_reason": "This platform is too complicated and slow. I want to cancel my auto-renewal immediately.",
+  "tenure": 34,
+  "derived_retention_strategy": "SLA Mitigation Safeguard Active. Target Risk: 0.77. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1362. Executed operational playbook logic: [SLA Mitigation Safeguard Active. Target Risk: 0.77. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.]"
+}
+
+[Execution Track Result for Customer Account #1231]
+{
+  "customer_id": 1231,
+  "churn_risk": 0.7494213179202761,
+  "top_negative_reason": "Your service has constant downtime. My team can't access our dashboard during market hours.",
+  "tenure": 20,
+  "derived_retention_strategy": "SLA Mitigation Safeguard Active. Target Risk: 0.75. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.",
+  "execution_dispatch_log": "CRM Webhook Outreach Fired Successfully -> Target Customer ID Key: #1231. Executed operational playbook logic: [SLA Mitigation Safeguard Active. Target Risk: 0.75. Action: Migrate account configurations to premium high-throughput network nodes and provide a direct engineering point of contact.]"
+}
+
+=====================================================================
+END-TO-END OPERATION CAMPAIGN CYCLES COMPLETED SUCCESSFULLY
+=====================================================================

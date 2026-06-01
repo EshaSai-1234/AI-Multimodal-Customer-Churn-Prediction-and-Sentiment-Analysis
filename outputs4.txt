@@ -1,0 +1,14 @@
+env) PS C:\Users\eshas\Downloads\AI Project ccpasa> # 2. Run the new aspect module directly
+(env) PS C:\Users\eshas\Downloads\AI Project ccpasa> python aspect_urgency_pipeline.py
+==========================================================
+STARTING OFFLINE STANDALONE ASPECT PIPELINE RUN
+==========================================================
+[NLP Setup] Network download bypassed. Activating ultra-fast Local Aspect Zero-Shot Classifier.
+[NLP Setup] Core pipeline initialized successfully (Offline Mode).
+
+
+=== Aspect-Based & Urgency Analysis Outputs ===
+           nlp_primary_aspect  nlp_urgency_score
+0  SLA/Technical Product bugs             0.8837
+1         Positive Engagement             0.0380
+==========================================================

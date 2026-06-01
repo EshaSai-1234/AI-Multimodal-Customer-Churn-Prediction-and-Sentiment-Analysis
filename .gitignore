@@ -1,0 +1,59 @@
+# =====================================================================
+# 1. VIRTUAL ENVIRONMENTS & PYTHON RUNTIME
+# =====================================================================
+# Ignore local virtual environment folders
+env/
+venv/
+ENV/
+.env
+.venv
+bin/
+include/
+lib/
+share/
+pip-selfcheck.json
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# =====================================================================
+# 2. PROJECT-SPECIFIC GENERATED DATASETS
+# =====================================================================
+# Ignore large generated synthetic or processed enterprise CSV databases
+*.csv
+customer_churn_400.csv
+ai_churn_advanced_nlp_enriched.csv
+ai_churn_retention_400_dataset.csv
+
+# =====================================================================
+# 3. STREAMLIT RUNTIME & CONFIGURATIONS
+# =====================================================================
+# Ignore Streamlit's local server runtime caches and credentials
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# =====================================================================
+# 4. MACHINE LEARNING & DEEP LEARNING COMPONENT CACHES
+# =====================================================================
+# Ignore heavy serialized model weights, checkpoints, or local caches
+*.pkl
+*.joblib
+*.h5
+*.pb
+.huggingface/
+.cache/
+
+# =====================================================================
+# 5. IDE, EDITOR & OS METADATA
+# =====================================================================
+# VS Code, PyCharm and system workspace artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
